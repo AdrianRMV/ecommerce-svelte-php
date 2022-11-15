@@ -7,7 +7,6 @@
     import Profile from './views/Profile.svelte';
     import ProfileSettings from './views/ProfileSettings.svelte';
     import RegisterUser from './views/RegisterUser.svelte';
-    import Test from './views/Test.svelte';
 
     import Users from './views/Users.svelte';
     import UsersView from './views/UserDetails.svelte';
