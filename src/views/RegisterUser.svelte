@@ -19,7 +19,7 @@ function registerUser (){
     bodyForm.append('phone_number', dataUsuario.phone);
     bodyForm.append('password', dataUsuario.password);
 
-    axios.post('http://localhost/app/AuthController.php', bodyForm)
+    axios.post('https://newphpecommercejona.herokuapp.com/app/AuthController.php', bodyForm)
     .then(function (response) {
         if(response.data) { 
             console.log(response.data)
@@ -127,7 +127,7 @@ function registerUser (){
                                     <p class="text-muted">Obtenga su cuenta gratis ahora</p>
                                 </div>
                                 <div class="p-2 mt-4">
-                                    <form enctype="multipart/form-data" method="POST" action="http://localhost/app/AuthController.php">
+                                    <form enctype="multipart/form-data" method="POST" action="https://newphpecommercejona.herokuapp.com/app/AuthController.php">
                                         <div class="mb-3">
                                             <label for="username" class="form-label">Nombre <span class="text-danger">*</span></label>
                                             <input type="text" name="name" class="form-control" id="username" placeholder="Ingresa tu nombre" required bind:value={dataUsuario.name}>

@@ -420,7 +420,7 @@
                         <form
                             enctype="multipart/form-data"
                             method="POST"
-                            action="http://localhost/app/AuthController.php"
+                            action="https://newphpecommercejona.herokuapp.com/app/AuthController.php"
                         >
                             <div class="modal-body">
                                 <div class="mb-3">

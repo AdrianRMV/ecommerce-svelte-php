@@ -139,7 +139,7 @@
       bodyForm.append("slug", dataCreate.slug);
 
       axios
-         .post("http://localhost/app/CategoriesController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/CategoriesController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -172,7 +172,7 @@
       bodyForm.append("slug", dataCreate.slug);
 
       axios
-         .post("http://localhost/app/BrandsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/BrandsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -205,7 +205,7 @@
       bodyForm.append("slug", dataCreate.slug);
 
       axios
-         .post("http://localhost/app/TagsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/TagsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -242,7 +242,7 @@
       bodyForm.append("id", dataSingleSelected.id);
 
       axios
-         .post("http://localhost/app/CategoriesController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/CategoriesController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -273,7 +273,7 @@
       bodyForm.append("id", dataSingleSelected.id);
 
       axios
-         .post("http://localhost/app/BrandsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/BrandsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -304,7 +304,7 @@
       bodyForm.append("id", dataSingleSelected.id);
 
       axios
-         .post("http://localhost/app/TagsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/TagsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -336,7 +336,7 @@
       bodyForm.append("id", id);
 
       axios
-         .post("http://localhost/app/CategoriesController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/CategoriesController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -364,7 +364,7 @@
       bodyForm.append("id", id);
 
       axios
-         .post("http://localhost/app/BrandsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/BrandsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -392,7 +392,7 @@
       bodyForm.append("id", id);
 
       axios
-         .post("http://localhost/app/TagsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/TagsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -896,7 +896,7 @@
                                              </div>
                                              <form
                                                 method="post"
-                                                action="http://localhost/app/ClientsController.php">
+                                                action="https://newphpecommercejona.herokuapp.com/app/ClientsController.php">
                                                 <div class="modal-body">
                                                    <div class="mb-3">
                                                       <label

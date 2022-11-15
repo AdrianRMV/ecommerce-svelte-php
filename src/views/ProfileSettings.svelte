@@ -54,7 +54,7 @@
         bodyForm.append('id', datosUsuarioToEdit.id);
 
         axios
-            .post('http://localhost/app/UserController.php', bodyForm)
+            .post('https://newphpecommercejona.herokuapp.com/app/UserController.php', bodyForm)
             .then(function (response) {
                 if (response) {
                     console.log(response);
@@ -201,7 +201,7 @@
                                 <div class="card-body p-4">
                                     <form
                                         method="POST"
-                                        action="http://localhost/app/UserController.php"
+                                        action="https://newphpecommercejona.herokuapp.com/app/UserController.php"
                                         enctype="multipart/form-data"
                                     >
                                         <div class="text-center">

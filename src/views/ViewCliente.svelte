@@ -547,7 +547,7 @@
                                                             </div>
                                                             <form
                                                                 method="POST"
-                                                                action="http://localhost/app/AdressController.php"
+                                                                action="https://newphpecommercejona.herokuapp.com/app/AdressController.php"
                                                             >
                                                                 <div
                                                                     class="modal-body"
@@ -747,7 +747,7 @@
                                                             </div>
                                                             <form
                                                                 method="POST"
-                                                                action="http://localhost/app/AdressController.php"
+                                                                action="https://newphpecommercejona.herokuapp.com/app/AdressController.php"
                                                             >
                                                                 <div
                                                                     class="modal-body"

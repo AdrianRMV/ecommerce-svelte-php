@@ -385,7 +385,7 @@
                                                 </div>
                                                 <form
                                                    method="post"
-                                                   action="http://localhost/app/ClientsController.php">
+                                                   action="https://newphpecommercejona.herokuapp.com/app/ClientsController.php">
                                                    <div class="modal-body">
                                                       <div class="mb-3">
                                                          <label

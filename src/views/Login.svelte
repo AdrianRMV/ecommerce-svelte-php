@@ -22,7 +22,7 @@
         bodyForm.append('password', dataUsuario.password);
 
         axios
-            .post('http://localhost/app/AuthController.php', bodyForm)
+            .post('https://newphpecommercejona.herokuapp.com/app/AuthController.php', bodyForm)
             .then(function (response) {
                 if (response.data) {
                     preferences.set(response.data.data.id);

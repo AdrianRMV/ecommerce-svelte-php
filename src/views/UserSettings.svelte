@@ -94,7 +94,7 @@
         console.log(bodyForm);
 
         axios
-            .post('http://localhost/app/UserController.php', bodyForm)
+            .post('https://newphpecommercejona.herokuapp.com/app/UserController.php', bodyForm)
             .then(function (response) {
                 if (response) {
                     Swal.fire({
@@ -243,7 +243,7 @@
                                     <div class="card-body p-4">
                                         <form
                                             method="post"
-                                            action="http://localhost/app/UserController.php"
+                                            action="https://newphpecommercejona.herokuapp.com/app/UserController.php"
                                             enctype="multipart/form-data"
                                         >
                                             <div class="text-center">

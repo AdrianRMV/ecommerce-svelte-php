@@ -78,7 +78,7 @@
       bodyForm.append("status", datosCupon.status);
 
       axios
-         .post("http://localhost/app/CouponsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/CouponsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
@@ -108,7 +108,7 @@
       bodyForm.append("id", id);
 
       axios
-         .post("http://localhost/app/CouponsController.php", bodyForm)
+         .post("https://newphpecommercejona.herokuapp.com/app/CouponsController.php", bodyForm)
          .then(function (response) {
             if (response) {
                console.log(response);
