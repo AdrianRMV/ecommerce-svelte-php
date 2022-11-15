@@ -30,58 +30,58 @@
 <Router>
     <div>
         <!-- Vistas direccionadas con componentes -->
-        <Route path="https://poetic-dusk-dbb344.netlify.app/">
+        <Route path="/">
             <Login />
         </Route>
-        <Route path="https://poetic-dusk-dbb344.netlify.app/home" component={Home} />
-        <Route path="https://poetic-dusk-dbb344.netlify.app/logout" component={Logout} />
-        <Route path="https://poetic-dusk-dbb344.netlify.app/profile" component={Profile} />
-        <Route path="https://poetic-dusk-dbb344.netlify.app/registerUser" component={RegisterUser} />
-        <Route path="https://poetic-dusk-dbb344.netlify.app/profileSettings" component={ProfileSettings} />
+        <Route path="/home" component={Home} />
+        <Route path="/logout" component={Logout} />
+        <Route path="/profile" component={Profile} />
+        <Route path="/registerUser" component={RegisterUser} />
+        <Route path="/profileSettings" component={ProfileSettings} />
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/users" component={Users} />
-        <Route path="https://poetic-dusk-dbb344.netlify.app/catalogos" component={Catalogos} />
+        <Route path="/users" component={Users} />
+        <Route path="/catalogos" component={Catalogos} />
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/users/:id" let:params>
+        <Route path="/users/:id" let:params>
             <UsersView id={params.id} />
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/users/settings/:id" let:params>
+        <Route path="/users/settings/:id" let:params>
             <UserSettings id={params.id} />
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/clientes" component={Clientes} />
+        <Route path="/clientes" component={Clientes} />
 
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/cupones/:id" let:params>
+        <Route path="/cupones/:id" let:params>
             <ViewCupones id={params.id} />
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/cupones" component={Cupones} />
+        <Route path="/cupones" component={Cupones} />
         
-        <Route path="https://poetic-dusk-dbb344.netlify.app/products" component={Products} />
+        <Route path="/products" component={Products} />
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/client_info/:id" let:params>
+        <Route path="/client_info/:id" let:params>
             <ViewCliente id={params.id} />
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/viewProduct/:id" let:params>
+        <Route path="/viewProduct/:id" let:params>
             <ViewProduct id={params.id} />
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/viewPresentacion" component={ViewPresentacion} />
+        <Route path="/viewPresentacion" component={ViewPresentacion} />
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/ordenes" component={Ordenes} />
+        <Route path="/ordenes" component={Ordenes} />
         
-        <Route path="https://poetic-dusk-dbb344.netlify.app/viewOrder/:id" let:params>
+        <Route path="/viewOrder/:id" let:params>
             <ViewOrder id={params.id}/>
         </Route>
 
-        <Route path="https://poetic-dusk-dbb344.netlify.app/viewDireccion" component={ViewDireccion} />
+        <Route path="/viewDireccion" component={ViewDireccion} />
 
 
 
         <!-- 404 -->
-        <Route path="https://poetic-dusk-dbb344.netlify.app/*" component={NotFound} />
+        <Route path="/*" component={NotFound} />
     </div>
 </Router>
